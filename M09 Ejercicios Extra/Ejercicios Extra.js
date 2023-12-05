@@ -135,8 +135,7 @@ if (cant1 != 0 && cant2 != 0){
 } else vacio=true;
 if (!vacio) {
     for (let i = 0; i < primero.length; i++){
-        datoBuscado = primero[i];
-        if (segundo.includes(primero[i])) na.push(primero[i]);
+      if (segundo.includes(primero[i])) na.push(primero[i]);
     }
 }
 
